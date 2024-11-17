@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAL 9000</title>
+	<link rel="icon" href="ai/iconshal.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+        .section {
+            width: 100%;
+            max-width: 1000px;
+            margin: 20px 0; /* Separación entre bloques */
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        nav ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        nav ul li {
+            margin: 5px 0;
+        }
+        h1 {
+            color: darkred;
+            text-decoration: underline;
+            text-align: center;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+        }
+        .thumb {
+            text-align: center;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .thumb:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+        }
+        .thumb img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .thumb a {
+            text-decoration: none;
+            color: #333;
+            display: block;
+            padding: 10px;
+            font-size: 14px;
+            font-weight: bold;
+            background-color: #f8f8f8;
+            border-top: 1px solid #ddd;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .thumb a:hover {
+            background-color: #007BFF;
+            color: #fff;
+        }
+        .thumb a span {
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 5px;
+            color: #007BFF;
+            transition: color 0.3s;
+        }
+        .thumb a:hover span {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <!-- Bloque de la lista -->
+    <div class="section">
+        <nav>
+            <ul>
+                <li><a href="cursos.html">Cursos</a></li>
+				<li><a href="PagdePags.html">Página de páginas</a></li>
+                <li><a href="Photoshop.html">Photoshop</a></li>
+                <li><a href="magia.html">Magia</a></li>
+				<li><a href="Songs.html">Canciones</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Bloque del encabezado -->
+    <div class="section">
+        <h1>HAL 9000</h1>
+    </div>
+
+    <!-- Bloque de miniaturas -->
+    <div class="section">
+        <div class="grid-container">
+            <div class="thumb">
+                <a href="https://murf.ai" target="_blank">
+                    <img src="ai/murf.png" alt="Creador de locuciones">
+                    <span>Genera locuciones</span>
+                </a>
+            </div>
+            <div class="thumb">
+                <a href="https://https://storyteller.mootion.com/workspace/generate" target="_blank">
+                    <img src="ai/mootion.jpg" alt="Generador de Historias">
+                    <span>Genera Historias en imagen</span>
+                </a>
+            </div>
+            <div class="thumb">
+                <a href="https://voicemaker.in/" target="_blank">
+                    <img src="ai/Voicemaker.png" alt="Miniatura 3">
+                    <span>Hace voces de Prompts</span>
+                </a>
+            </div>
+        </div>
+      <div class="grid-container">
+            <div class="thumb">
+                <a href="https://mubert.com" target="_blank">
+                    <img src="ai/murbert.png" alt="Hace música">
+                    <span>Hace música y música Royalty Free</span>
+                </a>
+            </div>
+            <div class="thumb">
+                <a href="https://suno.com/" target="_blank">
+                    <img src="ai/Suno.PNG" alt="Hacer Canciones">
+                    <span>Hacer Canciones</span>
+                </a>
+            </div>
+            <div class="thumb">
+                <a href="https://www.udio.com/" target="_blank">
+                    <img src="ai/Udio.png" alt="Otro de canciones, pero peor">
+                    <span>Otro de canciones, pero peor</span>
+                </a>
+            </div>
+        </div>
+          <div class="grid-container">
+            <div class="thumb">
+                <a href="https://tinywow.com/" target="_blank">
+                    <img src="ai/Tinywov.jpg" alt="Productividad. Útil">
+                    <span>Productividad. Útil</span>
+                </a>
+            </div>
+            <div class="thumb">
+                <a href="https://www.kittl.com/" target="_blank">
+                    <img src="ai/Kittl.jpg" alt="Diseño">
+                    <span>Diseño</span>
+                </a>
+            </div>
+            <div class="thumb">
+                <a href="https://websim.ai/" target="_blank">
+                    <img src="ai/websim.jpg" alt="Aplicaciones">
+                    <span>Aplicaciones. Curioso</span>
+                </a>
+            </div>
+        </div>    
+    
+    </div>
+</body>
+</html>
